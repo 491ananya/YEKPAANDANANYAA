@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dear Yekpa,</h1>
+        <p>I feel like home when I’m with you... you’re the only one I want to see, listen to, talk to, and be with.</p>
+        
+        <!-- First Image and Caption -->
+        <div class="image-container">
+            <img src="your-image1.jpg" alt="Image 1 description">
+            <p class="image-caption">First Image Caption Here</p>
+        </div>
+
+        <!-- Second Image and Caption -->
+        <div class="image-container">
+            <img src="your-image2.jpg" alt="Image 2 description">
+            <p class="image-caption">Second Image Caption Here</p>
+        </div>
+
+        <button onclick="showMessage()">Will you be my boyfriend?</button>
+        <p id="response" style="display:none;">Thank you poaf, I love you the most <3</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("response").style.display = "block";
+        }
+    </script>
+</body>
